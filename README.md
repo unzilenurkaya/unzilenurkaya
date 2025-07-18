@@ -34,3 +34,17 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=unzilenurkaya&" alt="unzilenurkaya" /></p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=unzilenurkaya&label=Profile%20views&color=0e75b6&style=flat" alt="unzilenurkaya" /> </p>
 
+
+## Puantaj Otomasyon Sistemi
+
+Bu depoda `puantaj.py` dosyası, vardiya listeleri ile turnike verilerini karsilastirarak anomalileri tespit eden bir komut satırı aracıdır.
+
+### Kullanım
+```
+python3 puantaj.py visittrack.xls vardiya.xlsx cikti.xlsx
+```
+- `visittrack.xls`: VisitTrack verileri içeren dosya
+- `vardiya.xlsx`: Vardiya listesi
+- `cikti.xlsx`: Oluşturulacak rapor dosyası
+
+Program vardiya dosyasının yapısını otomatik algılamaya çalışır. Algılayamazsa hangi satırların gün isimleri, tarihler ve personel verileri içerdiğini kullanıcıdan ister.
